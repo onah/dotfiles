@@ -1,0 +1,3 @@
+[submodule ".vim/pack/color/start/molokai"]
+	path = .vim/pack/color/start/molokai
+	url = https://github.com/tomasr/molokai
