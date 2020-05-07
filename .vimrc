@@ -32,7 +32,9 @@ colorscheme molokai
 
 " lightline
 set laststatus=2
+set showcmd
 
 " LSP
-nnoremap <Leader>ldd :LspDocumentDiagnostics<CR>
+nmap <Leader>l [LSP]
+nnoremap [LSP]dd :LspDocumentDiagnostics<CR>
 
