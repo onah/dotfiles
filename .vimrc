@@ -26,7 +26,7 @@ nnoremap <silent> <C-o> :<C-u>cp<CR>
 nnoremap <silent> <C-n> :<C-u>cn<CR>
 
 " color scheme
-colorscheme molokai
+colorscheme hybrid
 
 """ plugins
 
