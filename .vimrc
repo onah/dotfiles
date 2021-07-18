@@ -26,6 +26,7 @@ nnoremap <silent> <C-o> :<C-u>cp<CR>
 nnoremap <silent> <C-n> :<C-u>cn<CR>
 
 " color scheme
+set background=dark
 colorscheme hybrid
 
 """ plugins
