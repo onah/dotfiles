@@ -22,3 +22,6 @@
 [submodule ".vim/pack/color/start/vim-hybrid"]
 	path = .vim/pack/color/start/vim-hybrid
 	url = https://github.com/w0ng/vim-hybrid.git
+[submodule ".vim/pack/rust/start/rust.vim"]
+	path = .vim/pack/rust/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git

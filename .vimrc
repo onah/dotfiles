@@ -3,7 +3,11 @@ set list
 set tabstop=4
 set incsearch
 set hlsearch
-syntax on
+"syntax on
+syntax enable
+filetype plugin indent on
+
+let g:rustfmt_autosave = 1
 
 let mapleader = "\<Space>"
 
@@ -26,6 +30,7 @@ nnoremap <silent> <C-o> :<C-u>cp<CR>
 nnoremap <silent> <C-n> :<C-u>cn<CR>
 
 " color scheme
+"set termguicolors
 set background=dark
 colorscheme hybrid
 
