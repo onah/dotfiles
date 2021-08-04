@@ -18,3 +18,11 @@ sh dotfiles/setup.sh
 # ToDo
   - zsh
 
+# Note
+
+This Vim plugins are managed using Vim 8 features.
+```
+git submodule foreach git pull origin master
+git commit -a -m 'Update all vim plugins'
+```
+
