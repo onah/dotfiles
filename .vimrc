@@ -42,5 +42,9 @@ set showcmd
 
 " LSP
 nmap <Leader>l [LSP]
-nnoremap [LSP]dd :LspDocumentDiagnostics<CR>
+nnoremap [LSP]d :LspDefinition<CR>
+nnoremap [LSP]c :LspDeclaration<CR>
+nnoremap [LSP]r :LspReference<CR>
+nnoremap [LSP]D :LspDocumentDiagnostics<CR>
+
 
